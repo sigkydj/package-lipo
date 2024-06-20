@@ -35,7 +35,7 @@
         "url": "/var/www/html/export_import_excell-app/package-tex/"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
  
   
 }
