@@ -1,0 +1,36 @@
+{
+    "name": "sigknet/test1",
+    "description": "prueba de cracion de paquetes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sigk-Net Technologies",
+            "email": "sigkydj@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sigknet\\Test1\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.9",
+        "laravel/tinker": "^2.9",
+        "maatwebsite/excel": "^3.1"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "laravel/breeze": "^2.0",
+        "laravel/pint": "^1.13",
+        "laravel/sail": "^1.26",
+        "mockery/mockery": "^1.6",
+        "nunomaduro/collision": "^8.0",
+        "phpunit/phpunit": "^11.0.1"
+    },
+    "repositories": {
+        "type": "path",
+        "url": "/var/www/html/export_import_excell-app/package-tex/"
+    }
+}
