@@ -33,5 +33,5 @@
         "type": "path",
         "url": "/var/www/html/export_import_excell-app/package-tex/"
     },
-    minimum-stability (stable)
+    "minimum-stability": "stable"
 }
