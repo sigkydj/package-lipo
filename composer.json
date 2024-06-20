@@ -18,8 +18,8 @@
         "php": "^8.2",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
-        "maatwebsite/excel": "^3.1",
-        "sigknet/test1": "*"
+        "maatwebsite/excel": "^3.1"
+        
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -35,6 +35,9 @@
         "url": "/var/www/html/export_import_excell-app/package-tex/"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require": {
+        "sigknet/test1": "dev-master"
+    }
   
 }
